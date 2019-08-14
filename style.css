@@ -14,11 +14,19 @@ html, body{
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+    position: relative;
 }
 
 .main-page-image .phrase{
     font-size: 3em;
     color: #fff;
+    background-color: rgba(0,0,0,0.1);
+    width: 200px;
+    position: absolute;
+    top: 145px;
+    left: 100px;
+    padding: 15px;
+    border-radius: 10px;
 }
 /*.main{*/
     /*padding: 5px;*/
